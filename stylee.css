@@ -1,0 +1,162 @@
+form {
+    background: #CCE7FF;
+
+    padding: 70px;
+    width: 350px;
+    font-family: "trebuchet ms", sans-serif;
+    margin: auto;
+    border: rebeccapurple;
+}
+#form1{
+font-display:initial;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 24px; 
+ font-style: oblique;
+color: brown;}
+
+fieldset {
+    padding: 50px;
+    margin: 10px;
+}
+#date {
+text-align:  center;
+}
+.form1{
+    font-display:initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px; 
+     font-style: oblique;
+    color: brown;}
+    
+legend {
+    color: #a0522d;
+    font-weight: bold;
+}
+
+label {
+    margin: 25px;
+    font-size: 95%;
+
+}
+
+
+input {
+    background: #A6BEDE;
+    font-family: "trebuchet ms", "sans-serif";
+    border: 1px;
+    border-style: solid;
+    color: black;
+}
+
+select option {
+    background: #A6BEDE;
+    font-family: "trebuchet ms", sans-serif;
+}
+
+textarea {
+    border: 1px;
+    font-style: solid;
+
+    font-family: "trebuchet ms", sans-serif;
+}
+
+body {
+    background-color: beige;
+    background-image: url("images/noel.gif")
+}
+
+.text h1 {
+    font-family: arial;
+    font-size: 80px;
+font-style: italic ;
+color: purple;
+
+}
+
+.text {
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: blue;
+    font-family: 'beyond_the_mountainsregular', sans-serif;
+   
+   
+}
+#accompagnateurs{
+    width: 400px;
+    height: 100px;
+}
+#div_resume{
+font-display: initial;
+}
+p{
+    text-align: ;
+    font-size: 20px;
+}
+form{
+    border-block-end-color: #a0522d;
+}
+.abc{
+    
+    height: 450px;
+    width: 1250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.roule{
+padding-top: 60px;
+width: 100px;
+height: 200px;
+}
+#b1{
+border-radius:15px; 
+            width:220px;
+             height: 40px ; font-size: 18px; margin-left:6px ;
+             background-color: aqua;
+            }
+#label
+            {
+                width: 80px;
+                height: 20px;
+            }
+            /*----start header----*/
+
+
+#header .top_banner{
+	background:url(images/aaa.jpg);
+	height:350px;
+    -webkit-border-radius: 25px;-moz-border-radius: 25px;
+    border-radius: 15px;
+}
+#page_content{
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	padding:10px;
+	background:#e5e7e6;
+	-moz-box-shadow: 0 0 2px 2px #c3b984;
+	-webkit-box-shadow: 0 0 2px 2px#c3b984;
+	box-shadow: 0 0 2px 2px #c3b984;
+}
+
+#page_content .right_section{
+	width:720px;
+	float:left;
+	padding:15px;
+}
+
+#page_content .right_section .top_content{
+	padding:15px 0 0px 0;
+}
+
+#page_content .right_section .top_content .column_one{
+	width:290px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#page_content .right_section .top_content .column_two{
+	width:290px;
+	float:right;
+	margin-bottom:20px;
+}

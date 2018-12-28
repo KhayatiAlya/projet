@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reservation</title>
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/styleees.css">
+    <link rel="stylesheet" href="css/datePicker.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/1.jpg" alt=""></i>
+                    <img src="images/res.jpg" alt=""></i>
+                    <img src="images/123.jpg" alt=""></i>
+                    <div class="signup-img-content">
+                        <h2 class="reser"> Réserver Votre Table</h2>
+                        <p class="reser">Soyez le bienvenue !</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <p  class="required"><h3> A quelle date vous allez venir ?</h3></p></br>
+                                    <input name="date" type="text" id="date" value=""  placeholder="--/--/----" />
+                                    </br>
+                                    <div class="form-radio">
+                                        <div class="label-flex">
+                                            <label for="payment">civilité</label>
+                                        </div>
+                                        <div class="form-radio-group">            
+                                                <div class="form-radio-item">
+                                                    <input type="radio" name="civilite" value="mme" id="cash">
+                                                    <label for="cash">Madame </label>
+                                                    <span class="check"></span>
+                                                </div>
+                                                <div class="form-radio-item">
+                                                    <input type="radio" name="civilite" id="cheque" value="mlle">
+                                                    <label for="cheque">Mademoiselle</label>
+                                                    <span class="check"></span>
+                                                </div>
+                                                <div class="form-radio-item">
+                                                    <input type="radio" name="civilite" id="demand" value="m">
+                                                    <label for="demand">Monsieur</label>
+                                                    <span class="check"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <label for="nom" class="required">Nom et Prénom</label>
+                                    <input type="text" name="nom" id="nom" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="phone_number" class="required">Télephone</label>
+                                    <input type="text" name="phone_number" id="phone_number" />
+                                </div>
+
+                                <div id="div_accompagnateurs"><h3>Liste des accompagnateurs (une personne par ligne):</h3>
+                                    <textarea class="area" name="accompagnateurs" cols="60" rows="4" id="accompagnateurs"></textarea>
+                                    </br>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference"><h3>Table pour combien de personnes?</h3></label> </div>
+                                    <div class="select-list">
+                                                <select name="nbp" id="nbp" class="meal_preference">
+                                                        <option value="-1" selected>--Veuillez choisir--- </option>
+                                                        <option value="1">Une place</option>
+                                                        <option value="2">Deux places</option>
+                                                        <option value="4">Quatre places</option>
+                                                        <option value="6">Six places</option>
+                                                      </select>
+                                                      <div id="chaises">
+                                                      </div>
+                                    </div>
+                                </div>
+                                    <h3>Que voulez-vous manger ? </h3>
+                                    <div>
+                                            <input name="cmd" type="checkbox" value="Salade" data-prix="5" />
+                                            <label> Salade</label>
+                                            <input name="cmd" type="checkbox" value="Soupe" data-prix="2.5" />
+                                            <label> Soupe </label>
+                                            <input name="cmd" type="checkbox" value="Couscous" data-prix="15.5" />
+                                            <label> Couscous</label>
+                                            <input name="cmd" type="checkbox" value="Riz" data-prix="12" />
+                                            <label>  Riz</label>
+                                            <input name="cmd" type="checkbox" value="Fruits" data-prix="7" />
+                                            <label>   Fruits </label>
+                                            <input name="cmd" type="checkbox" value="Gateaux" data-prix="6.4" />
+                                            <label>   Gateaux</label>
+                                    <hr/>
+                                    <div id="div_resume">
+                                        Afficher le r&eacute;sum&eacute; ici ...
+                                    </div>
+                                    <p>&nbsp;</p>
+
+                                </div>
+
+
+
+                            </div>
+                        
+                        <div class="form-submit">
+                            <input name="b1" type="button" id="b1" value="valider" class="submit" id="submit"/>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/utill.js"></script>
+    <script src="js/datePicker.js"></script>
+</body>
+
+</html>

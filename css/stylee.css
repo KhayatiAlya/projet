@@ -1,0 +1,9 @@
+body {
+  background-image: url("images/sidebar-2-400x600\ 1.jpg");
+}
+
+#div_resume {
+  background-color:#6699FF; 
+  border: 2px solid; 
+  padding: 5px;
+}
